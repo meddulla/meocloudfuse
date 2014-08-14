@@ -1,0 +1,12 @@
+MEO Cloud Fuse
+
+Mount a MEO Cloud's public link using fuse.
+
+Usage: 
+    $ python meocloudfuse.py [link url] [mount path]
+    Eg.
+    $ python meocloudfuse.py https://meocloud.pt/link/7f065f06-175b-466e-80d3-560c27b538/posters/ /mnt/meo
+
+Supported operations: read directory listing and read file.
+
+Thanks for the inspiration to the dropfuse project.
